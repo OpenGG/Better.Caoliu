@@ -1,0 +1,34 @@
+{
+  "name": "better.caoliu",
+  "version": "1.0.0",
+  "description": "Better.Caoliu =============",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src *.js",
+    "lint-fix": "npm run lint -- --fix",
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenGG/Better.Caoliu.git"
+  },
+  "author": "OpenGG <liy099@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/OpenGG/Better.Caoliu/issues"
+  },
+  "homepage": "https://github.com/OpenGG/Better.Caoliu#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.17.0",
+    "eslint-config-opengg": "^3.0.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-no-async-without-await": "^1.2.0",
+    "fs-extra": "^5.0.0",
+    "rollup": "^0.55.5",
+    "rollup-plugin-babel": "^3.0.3"
+  }
+}
