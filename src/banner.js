@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name            Better.Caoliu
-// @version         3.0.0
+// @version         3.0.1
 // @namespace       me.opengg
 // @description     This script removes redirection and ads of Caoliu.
 // @license         GPL-3.0-or-later
